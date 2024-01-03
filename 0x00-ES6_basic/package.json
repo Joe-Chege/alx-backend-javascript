@@ -1,0 +1,22 @@
+{
+  "name": "0x00-ES6_basic",
+  "version": "1.0.0",
+  "description": "ES6 basic project",
+  "scripts": {
+    "dev": "babel-node --presets @babel/preset-env",
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "jest": "^27.2.5"
+  }
+}
