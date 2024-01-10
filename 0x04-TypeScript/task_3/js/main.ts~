@@ -1,0 +1,13 @@
+// Define the interface for the printTeacher function
+interface PrintTeacherFunction {
+  (firstName: string, lastName: string): string;
+}
+
+// Implement the printTeacher function
+const printTeacher: PrintTeacherFunction = (firstName, lastName) => {
+  return `${firstName.charAt(0)}. ${lastName}`;
+};
+
+// Test the printTeacher function
+const printedTeacher = printTeacher('John', 'Doe');
+console.log(printedTeacher); // Output: J. Doe
